@@ -27,7 +27,7 @@ const Today = () => {
 
   const user = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/users");
+      const response = await axios.get("https://piket-app-mern-backend.vercel.app/users");
       setUsers(response.data);
     } catch (error) {
       console.log(error);
