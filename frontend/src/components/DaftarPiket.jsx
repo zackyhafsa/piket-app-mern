@@ -15,7 +15,7 @@ export const DaftarPiket = () => {
     // setUser(response.data);
 
     try {
-      const response = await axios.get("http://localhost:5000/users");
+      const response = await axios.get("https://piket-app-mern-backend.vercel.app/users");
       setUser(response.data);
     } catch (error) {
       console.log(error);
