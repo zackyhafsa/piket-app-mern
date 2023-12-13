@@ -25,4 +25,4 @@ app.post("/users", saveUser);
 app.patch("/users/:id", updateUser);
 app.delete("/users/:id", deleteUser);
 
-app.listen(5000, () => console.log("server sedang berjalan di http://localhost:3000"));
+app.listen(5000, () => console.log("server sedang berjalan di http://localhost:5000"));
